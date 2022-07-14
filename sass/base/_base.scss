@@ -9,7 +9,7 @@ body {
 }
 
 .card-set {
-   /* display: flex;*/
+    display: flex;
     flex-wrap: wrap;
     margin: calc(-1 * var(--indent)/2);
 }
