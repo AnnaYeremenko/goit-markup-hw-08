@@ -82,12 +82,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1120px;
+    max-width: 1120px;
   }
 }
 
@@ -703,6 +703,7 @@ body {
 }
 
 .benefits__title {
+  width: 100%;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
