@@ -1,6 +1,7 @@
 // utils
 @import "./utils/vars";
 @import "./utils/placeholder";
+@import "./utils/mixins";
 
 // base styles
 @import "./base/reset";
@@ -14,6 +15,7 @@
 @import "./components/socials";
 @import "./components/modal-form";
 @import "./components/filter-button";
+@import "./components/mobile-menu";
 
 // layouts styles
 @import "./layouts/header";
